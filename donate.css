@@ -1,32 +1,78 @@
 *{
+    
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 .header{
     text-align: center;
     background-image: url(images/donation7.jpg);
-    background-color: rgb(216, 203, 203);
-    background-blend-mode:luminosity;
-    color: aliceblue;
+    background-color: rgb(114, 112, 112);
+    background-blend-mode:soft-light;
+    color:white;
+    padding: 100px 150px 40px 150px;
+
 }
 .header-title{
     font-size: 32px;
-    padding-top: 70px;
+    padding-bottom: px;
+    
 }
 .header-subtitle{
-    font-size: 8px;
-    padding-bottom: 32px; 
+    font-size: 12px;
+    
 }
 .btn-primary{
-    background-color:#1a1919aa;
-    border: 0;
+    background-color:black;
+    border: 2px solid white;
     color: aliceblue;
     border-radius: 3px;
     height: 50px;
     font-weight: 700;
-    padding: 0 20px;
+    padding:  8px 20px 15px 20px;
     font-size: 20px;
     justify-content: center;
 }
 .header .btn-primary{
+    
     margin-bottom: 82px;
+}
+.donate-button{
+    padding-top: 20px;
+}
+.donate{
+    text-align: center;
+    margin: 100px 150px 0 150px;
+
+    
+}
+.donate-title{
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+.donate-subtitle{
+    font-size: 18px;
+    color:slategrey;
+}
+.ul li{
+    text-decoration: none;
+
+}
+.btn-donate{
+    background-color:transparent;
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    height: 90px;
+    width: 90px;
+    font-weight: 700;
+    padding:  8px 20px 15px 20px;
+    font-size: 20px;
+    justify-content: center;
+    
+    
+}
+.donate .amount{
+    margin-top: 48px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
 }
