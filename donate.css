@@ -1,0 +1,32 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.header{
+    text-align: center;
+    background-image: url(images/donation7.jpg);
+    background-color: rgb(216, 203, 203);
+    background-blend-mode:luminosity;
+    color: aliceblue;
+}
+.header-title{
+    font-size: 32px;
+    padding-top: 70px;
+}
+.header-subtitle{
+    font-size: 8px;
+    padding-bottom: 32px; 
+}
+.btn-primary{
+    background-color:#1a1919aa;
+    border: 0;
+    color: aliceblue;
+    border-radius: 3px;
+    height: 50px;
+    font-weight: 700;
+    padding: 0 20px;
+    font-size: 20px;
+    justify-content: center;
+}
+.header .btn-primary{
+    margin-bottom: 82px;
+}
