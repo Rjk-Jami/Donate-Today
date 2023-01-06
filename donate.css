@@ -5,7 +5,7 @@
 .header{
     text-align: center;
     background-image: url(images/donation7.jpg);
-    background-color: rgb(114, 112, 112);
+    background-color: rgb(80, 79, 79);
     background-blend-mode:soft-light;
     color:white;
     padding: 100px 150px 40px 150px;
@@ -19,12 +19,13 @@
 .header-subtitle{
     font-size: 12px;
     
+    
 }
 .btn-primary{
     background-color:black;
-    border: 2px solid white;
+    border: 2px solid rgb(216, 212, 212);
     color: aliceblue;
-    border-radius: 3px;
+    border-radius: 8px;
     height: 50px;
     font-weight: 700;
     padding:  8px 20px 15px 20px;
@@ -45,12 +46,13 @@
     
 }
 .donate-title{
-    font-size: 28px;
+    font-size: 38px;
     margin-bottom: 5px;
 }
 .donate-subtitle{
     font-size: 18px;
     color:slategrey;
+    margin: 0 450px;
 }
 .ul li{
     text-decoration: none;
@@ -75,4 +77,49 @@
     display: flex;
     gap: 20px;
     justify-content: center;
+}
+hr{
+    margin: -10px 500px 24px 500px;
+}
+.amount-write{
+    color: rgb(187, 185, 185);
+    font-weight: 300;
+    margin-top: 40px;
+}
+.donate-plan{
+    text-align: center;
+    margin-top: 120px;
+}
+.plan-title{
+    font-size: 38px;
+}
+.plan-subtitle{
+    font-size: 18px;
+    color:slategrey;
+    margin: 0 600px;
+}
+
+.plan-container{
+    display: flex;
+    gap: 24px;
+    margin: 40px 250px;
+
+}
+.plans{
+    
+    box-shadow: 0px 6px 50px rgba(73, 67, 77, 0.06);
+    border-radius: 5px;
+    background-color: rgb(197, 242, 255);
+    padding: 20px 20px;
+    text-align: left;
+}
+
+.plans-title{
+    font-size: 24px;
+    font-weight: 600;
+}
+.plans-subtitle{
+    ont-size: 20px;
+    font-weight: 400;
+    color:slategrey;
 }
