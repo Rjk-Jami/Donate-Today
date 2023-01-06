@@ -32,6 +32,11 @@
     font-size: 20px;
     justify-content: center;
 }
+.btn-primary:hover{
+    background-color: rgb(255, 255, 255);
+    color:  rgb(29, 29, 29);
+    border: 2px solid rgb(0, 0, 0); 
+}
 .header .btn-primary{
     
     margin-bottom: 82px;
@@ -58,6 +63,21 @@
     text-decoration: none;
 
 }
+.amount-input{
+    margin: 30px 0 20px 0;
+    border: border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    height: 25px;
+    font-weight: 700;
+    padding:  8px 20px 12px 20px;
+    font-size: 20px;
+    justify-content: center;
+    color: white;
+}
+.amount-input:hover{
+    background-color: rgb(255, 255, 255);
+    color:  rgb(29, 29, 29);
+}
 .btn-donate{
     background-color:transparent;
     border: 2px solid rgb(0, 0, 0);
@@ -72,17 +92,20 @@
     
     
 }
+.btn-donate:hover{
+    background-color: rgb(29, 29, 29);
+    color: aliceblue;
+    border: 2px solid rgb(216, 212, 212); 
+}
 .donate .amount{
     margin-top: 48px;
     display: flex;
     gap: 20px;
     justify-content: center;
 }
-hr{
-    margin: -10px 500px 24px 500px;
-}
+
 .amount-write{
-    color: rgb(187, 185, 185);
+    color: gray;
     font-weight: 300;
     margin-top: 40px;
 }
@@ -138,4 +161,72 @@ hr{
     padding-bottom:30px;
     color: aliceblue;
     font-weight: 100;
+}
+.article img{
+    height:500px ;
+    width:600px ;
+    
+}
+.article{
+    display: flex;
+    gap: 200px;
+    justify-items: center;
+    margin: 150px 0 0 0;
+}
+.content{
+    text-align: left;
+    margin: 40px 250px;
+}
+.blog{
+    width: 600px;
+    margin: 0 0 100px 0;
+}
+.blog-header{
+    font-size: 38px
+}
+.blog-description{
+    font-size: 18px;
+    color:slategrey;
+    margin: 30px 0 ;
+}
+
+.contact-info{
+    text-align: center;
+    margin: 0px 600px;
+}
+.contact-title{
+    font-size: 38px;
+    margin-top: 100px;
+    
+}
+.contact-subtitle{
+    font-size: 16px;
+    font-weight: 400;
+    color:slategrey;
+    margin-top: -20px;
+    margin-bottom: 40px;
+} 
+.email{
+    background-color:black;
+    border: 2px solid rgb(216, 212, 212);
+    border-radius: 8px;
+    height: 25px;
+    font-weight: 700;
+    padding:  8px 20px 12px 20px;
+    font-size: 20px;
+    justify-content: center;
+    color: white;
+}
+.email:hover{
+    background-color: rgb(255, 255, 255);
+    color:  rgb(29, 29, 29);
+    border: 2px solid rgb(0, 0, 0); 
+}
+form{
+ text-align: center;
+ border: 2px solid rgb(216, 212, 212);
+ margin: 0 500px 100px 500px;
+ padding: 50px 0;
+ background-color:rgb(29, 29, 29);
+ border-radius: 7px;
 }
